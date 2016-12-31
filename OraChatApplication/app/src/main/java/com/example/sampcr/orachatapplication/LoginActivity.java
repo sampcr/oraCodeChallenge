@@ -350,7 +350,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     return false;
                 }
             }else {
-                //LoginIdChecker.createLogin(mEmail, mPassword);
+                LoginIdChecker.createUser(mEmail, mPassword);
                 return true;
             }
         }
